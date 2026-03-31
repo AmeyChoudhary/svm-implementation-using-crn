@@ -11,7 +11,10 @@ The notebook requires:
 - `numpy`
 - `scipy`
 - `matplotlib`
-- `jupyter`
+- `notebook`
+- `ipykernel`
+
+Run the following commands from `FINAL_SUBMISSION/final_submission/`.
 
 It is recommended to install the dependencies in a virtual environment. In the commands below, the environment is named `svm_crn`; this may be replaced with any preferred environment name.
 
@@ -27,7 +30,13 @@ If a virtual environment is already active, install the dependencies with `requi
 pip install -r requirements.txt
 ```
 
-For reference, the environment only requires `numpy`, `scipy`, `matplotlib`, and `notebook`.
+For reference, the environment only requires `numpy`, `scipy`, `matplotlib`, `notebook`, and `ipykernel`.
+
+Add the environment to `ipykernel` as:
+
+```bash
+python3 -m ipykernel install --user --name=svm_crn --display-name "SVM_CRN"
+```
 
 Launch the notebook with:
 
