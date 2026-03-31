@@ -16,7 +16,7 @@ The notebook requires:
 It is recommended to install the dependencies in a virtual environment. In the commands below, the environment is named `svm_crn`; this may be replaced with any preferred environment name.
 
 ```bash
-python -m venv svm_crn
+python3 -m venv svm_crn
 source svm_crn/bin/activate
 pip install -r requirements.txt
 ```
