@@ -14,7 +14,7 @@ The notebook requires:
 - `notebook`
 - `ipykernel`
 
-Run the following commands from within the repository at root level.
+Please ensure you are in the repository's root directory before running the following commands.
 
 It is recommended to install the dependencies in a virtual environment. In the commands below, the environment is named `svm_crn`; this may be replaced with any preferred environment name.
 
