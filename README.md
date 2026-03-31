@@ -1,4 +1,4 @@
-# Final Submission: CRN-SVM Parallel Batch
+# CRN-SVM
 
 ## Overview
 `crn_svm.ipynb` implements a parallel-batch chemical reaction network (CRN) realization of linear SVM training driven by a dual-rail Hopf oscillator. The notebook places the Python reference model and the CRN model under the same batch schedule so that both trajectories can be compared on aligned epochs, identical minibatch structure, and the same training data.
